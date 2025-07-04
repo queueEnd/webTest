@@ -1,0 +1,1 @@
+import{S as e,M as t}from"./constants.mpH2PV74.js";const s={createInstance(){window._AMapSecurityConfig={securityJsCode:e};const s=document.createElement("script");s.src="https://webapi.amap.com/maps?v=2.0&key="+t,document.head.appendChild(s)}};export{s as A};

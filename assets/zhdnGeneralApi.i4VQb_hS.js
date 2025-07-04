@@ -1,0 +1,1 @@
+import{b9 as a}from"./index-B3fvMXoi.js";const e=e=>a.get("/blade-smartai/smartapi/getByTypeName",{params:{typeName:e}}),t=e=>a.post("/blade-smartai/supplierManage/getSupplierAuthInfoList",e,{});export{e as G,t as a};
