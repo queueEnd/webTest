@@ -1,0 +1,1 @@
+const t=t=>new Date(t.replace(/-/g,"/")).getTime(),e=t=>{let e="",c="",i="",n="";const s=t.match(/^(.*?(省|自治区|特别行政区|市))/);s&&(e=s[1],t=t.slice(e.length));const a=t.match(/^(.*?(市|地区|自治州|盟))/);a&&(c=a[1],t=t.slice(c.length));const l=t.match(/^(.*?(区|县|市|旗))/);return l&&(i=l[1],t=t.slice(i.length)),n=t.trim(),{province:e,city:c,district:i,detail:n}};export{e as a,t as p};

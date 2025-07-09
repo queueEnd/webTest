@@ -1,0 +1,1 @@
+import{cK as n}from"./index-oXtcu1jG.js";function t(t){return n.get("/viper/linemap/blpp",{params:{type:t}})}function r(t){return n.get("/viper/linemap/BorderStation")}function a(t){return n.get("/viper/linemap/cntrack",{params:{cc:t}})}function e(t){return n.get("/viper/linemap/cnstation",{params:{station:t}})}export{a,r as b,e as c,t as g};
